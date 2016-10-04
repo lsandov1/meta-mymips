@@ -1,0 +1,9 @@
+define KMACHINE mymips
+
+define KARCH mips
+
+include ktypes/standard/standard.scc nopatch
+define KTYPE standard/base
+branch mymips
+
+include mymips.scc

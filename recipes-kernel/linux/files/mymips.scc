@@ -1,0 +1,7 @@
+kconf hardware mymips.cfg
+
+include cfg/usb-mass-storage.scc
+include cfg/fs/vfat.scc
+
+kconf hardware mymips-user-config.cfg
+include mymips-user-patches.scc
